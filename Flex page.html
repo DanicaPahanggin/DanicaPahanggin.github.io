@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danica Pahnggin</title>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #9be8c3;
+            color: #333; 
+            line-height: 1.6;
+        }
+
+        nav {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            background-color: #6ba16d; 
+            position: relative;
+        }
+
+        .nav__content {
+            max-width: var(--max-width);
+            margin: auto;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 40%;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+        ul li {
+            margin-right: 1.5rem; 
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff; 
+            transition: color 0.3s;
+        }
+
+        ul li a:hover {
+            color: #333; 
+        }
+
+        .image {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 5%;
+        }
+
+        .image img {
+            width: 250px;
+            height: 200px; 
+            margin: 10px;
+            margin-top: 5%;
+            border-radius: 8px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .image p {
+            text-align: center;
+            margin-top: -5%;
+            padding: 10%;
+            text-transform: uppercase;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            background-color: #6ba16d; 
+            padding: 5px;
+            color: #333;
+            position: relative;
+            margin-top: 10%;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="IT111 Blog Entries.html">IT111 BLOG ENTRIES</a></li>
+                <li><a href="Flex page.html">FLEX PAGE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="image">
+        <img src="img/flex 1.jpg" alt="Image 1">
+        <img src="img/flex 2.jpg" alt="Image 2">
+        <img src="img/flex 3.jpg" alt="Image 3">
+        <img src="img/flex 4.jpg" alt="Image 4">
+        <img src="img/flex 5.jpg" alt="Image 5">
+        <p>
+            Having these people around me made me found the purpose of living. They became part of every little achievement that I have received.
+             They were always there to witness how happy I was claiming what I have deserved. It feels encouraging to put my life on high due to them; 
+            they always make me feel the fabulous feeling even when I receive what I really thought I do not deserve.
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; Danica Pahanggin 2023</p>
+    </footer>
+</body>
+
+</html>

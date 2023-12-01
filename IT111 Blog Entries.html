@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danica Pahnggin</title>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #9be8c3;
+            color: #333; 
+            line-height: 1.6;
+        }
+
+        nav {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            background-color: #6ba16d; 
+            position: relative;
+        }
+
+        .nav__content {
+            max-width: var(--max-width);
+            margin: auto;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 40%;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+        ul li {
+            margin-right: 1.5rem; 
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff; 
+            transition: color 0.3s;
+        }
+
+        ul li a:hover {
+            color: #333; 
+        }
+
+        .c-container {
+            max-width: var(--max-width);
+            margin: 3%;
+            display: grid;
+            grid-template-columns: repeat(1, 2fr);
+            gap: 10px;
+            padding: 2%;
+        }
+
+        .c-container > div {
+            background-color: #215e2183;
+            margin-left: 33%;
+            width: 500px;
+            height: 400px;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .c-container img {
+            width: 100%;
+            height: 100;
+            max-width: 300px; 
+            border-radius: 8px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .c-container p {
+            margin-top: 10px;
+            font-size: 17px; 
+        }
+
+        .c-container > div:hover {
+            background-color: #6ba16d;
+        }
+
+        .c-container > div:hover h3,
+        .c-container p {
+            text-transform: uppercase;
+            margin-top: 10px;
+            font-size: 15px; 
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            background-color: #6ba16d; 
+            padding: 5px;
+            color: #333;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="IT111 Blog Entries.html">IT111 BLOG ENTRIES</a></li>
+                <li><a href="Flex page.html">FLEX PAGE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="c-container">
+        <div class="c3">
+            <h3>CHAPTER 3</h3>
+            <img src="img/chapter 3.jpg" alt="Chapter 3 Image">
+            <p>Information and processing cycle is the lesson that is confusing; however,
+                 this is acquiring due to its contents where it is really detailed.</p>
+        </div>
+
+        <div class="c5">
+            <h3>CHAPTER 5</h3>
+            <img src="img/chapter 5.jpg" alt="Chapter 5 Image">
+            <p>Learning the basic concepts of computer security can be both eye-opening and empowering. 
+                It's akin to gaining a set of digital self-defense skills, understanding potential threats, and learning how to safeguard information.</p>
+        </div>
+
+        <div class="c6">
+            <h3>CHAPTER 6</h3>
+            <img src="img/chapter 6.jpg" alt="Chapter 6 Image">
+            <p>Learning HTML and CSS can be both exciting and challenging. With HTML, you grasp the structure of web content, and then CSS adds the styling layer. 
+                It feels encouraging when you see your code translate into a visual webpage, but there can be moments of frustration when things don't look as expected. </p>
+        </div>
+
+        <div class="c4">
+            <h3>WIREFRAME & MOCKUPS</h3>
+            <img src="img/wireframe.jpg" alt="Wireframe Image">
+            <p>Wireframing and mockups makes a person dumb because when they do not know how to do it at first. It's like discovering the blueprint of a building before 
+                it takes shape – a bit abstract at first, but crucial for bringing your ideas to life visually. However, its result brought fun.</p>
+        </div>
+
+        <div class="c5">
+            <h3>CSS SELECTORS</h3>
+            <img src="img/css.jpg" alt="CSS Selectors Image">
+            <p>Learning CSS selectors can—at first —feel challenging, but as you grasp the concepts, it becomes empowering. 
+                It's like unlocking a language to precisely target and style elements, enhancing your control over web page design.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Danica Pahanggin 2023</p>
+    </footer>
+</body>
+
+</html>

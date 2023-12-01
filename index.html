@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danica Pahnggin</title>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333; 
+            line-height: 1.6;
+        }
+
+        nav {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            background-color: #6ba16d; 
+            position: relative;
+        }
+
+        .nav__content {
+            max-width: var(--max-width);
+            margin: auto;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 40%;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+        ul li {
+            margin-right: 1.5rem; 
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff; 
+            transition: color 0.3s;
+        }
+
+        ul li a:hover {
+            color: rgb(14, 49, 14); 
+        }
+
+        .Me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            background-color: #9be8c3;
+            color: #333;
+            padding: 3rem;
+        }
+
+        .Me img {
+            width: 500px; 
+            height: 500px; 
+            margin-top: 10%;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-bottom: 1.5rem;
+        }
+
+        .Me p {
+            font-size: 20px; 
+            padding: 5%; 
+            background-color: #6ba16d; 
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            margin-top: 2%; 
+        }
+
+        .socials a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px; 
+            background: #6ba16d;
+            border-radius: 10%;
+            font-size: 18px; 
+            color: #fff;
+            margin: 0 0.5rem; 
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .socials a:hover {
+            background-color: rgba(255, 255, 255, 0.705);
+            color: #6ba16d;
+        }
+
+        .infographics {
+            text-align: center; 
+            margin: 3rem 0;
+        }
+
+        .infographics h3 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .infographics img {
+            width: 100%;
+            max-width: 500px; 
+            height: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #6ba16d; 
+            padding: 5px;
+            color: #333;
+        }
+
+        footer p {
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="IT111 Blog Entries.html">IT111 BLOG ENTRIES</a></li>
+                <li><a href="Flex page.html">FLEX PAGE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="Me" id="about">
+        <div class="image">
+            <img src="img/danica 1.jpg" alt="danica">
+        </div>
+
+        <div class="Me">
+            <h3 style="font-size: 50px;">ABOUT ME</h3>
+            <p>
+                Hello! I am Danica Pahanggin. There are many ways to describe me in accordance with other people. But don't mind those because it can be either true or false.
+                By the way, a certain thing to describe me and only that the abilities I have are painting and drawing. I do not have much expertise; hence, I will stay on that.
+            </p>
+        </div>
+
+        <div class="socials">
+            <a href="https://web.facebook.com/danica.pahanggin"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/danica_pahanggin"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.twitter.com/danics_it_is"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+    </div>
+
+
+    <div class="infographics">
+        <h3 style="color:#333;">HOW DO I SEE MYSELF 8 YEARS FROM NOW</h3>
+        <img src="img/infograph.jpg" alt="infographic">
+    </div>
+
+    <footer>
+        <p>&copy; Danica Pahanggin 2023</p>
+    </footer>
+</body>
+
+</html>
